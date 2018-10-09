@@ -19,7 +19,7 @@ public class FindMaxValueMatrix {
             }
         }
 
-        max = 0;
+        max = matrix[0][0];
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 if ( max<matrix[i][j])
